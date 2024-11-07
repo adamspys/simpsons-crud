@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Actualizar</title>
 </head>
 
 <body>
@@ -24,8 +24,6 @@
 
             echo "<form action=actualizarR.php method='post'><input type='text' readonly name='id' value='" . $fila['id'] . "'>";
 
-            echo "<input type='text' name='imagen' value='" . $fila['imagen'] . "'>";
-
             echo "<input type='text' name='nombre' value='" . $fila['nombre'] . "'>";
 
             echo "<input type='text' name='edad' value='" . $fila['edad'] . "'>";
@@ -35,6 +33,8 @@
             echo "<input type='text' name='padres' value='" . $fila['padres'] . "'>";
 
             echo "<input type='text' name='checked' value='" . $fila['checked'] . "'>";
+
+            echo "<input type='text' name='imagen' value='" . $fila['imagen'] . "'>";
 
             echo "<button>Enviar</button></form><hr>";
 
